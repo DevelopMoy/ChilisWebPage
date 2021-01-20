@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+#mainNav {
+    background-color: transparent !important;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    padding-right: 7%;
+}
+
+.nav-item{
+    font-size: 24px;
+}
+
+.nav-link{
+    color: black !important;
+    transition: all 300ms;
+}
+
+.nav-link:hover{
+    color: #535353 !important;
+}
+
+#fpContainer{
+    display: flex;
+    flex-flow: row wrap;
+    height: 1000px;
+}
+
+#fpDivLeft{
+
+    flex-basis: 40%;
+    flex-grow: 2;
+    background-color: rgb(248,246,214);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#fpDivLeft h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5em;
+}
+
+.botonPrinc{
+    width: 25%;
+    margin: 4% auto;
+    height: 50px;
+    padding: 1%;
+    background-color: rgb(226,30,37);
+    border-radius: 19px;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 5px 5px #cccccc;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+}
+
+.botonPrinc p{
+    font-size: 1.6em;
+    color: white;
+}
+
+.botonPrinc:hover{
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+.active{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+#fpDivRight{
+    flex-basis: 60%;
+    flex-grow: 3;
+    background-color: rgb(245,205,84);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#areaImgSld{
+    margin-top: 1%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#areaImgSld img{
+    width: 55%;
+    transition: all 500ms;
+}
+
+#areaImgSld p {
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#areaImgSld p:first-child{
+    margin-right: 30px;
+}
+
+#areaImgSld p:last-child{
+    margin-left: 50px;
+}
+
+
+#areaImgSld p:hover{
+    cursor: pointer;
+}
+
+#contentSlide{
+    width: 100%;
+    height: 72%;
+}
+
