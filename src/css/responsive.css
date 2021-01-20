@@ -1,0 +1,134 @@
+@media (max-width: 2568px) {
+    #fpContainer{
+        height: 1500px;
+    }
+}
+
+@media (max-width: 1700px) {
+    #contentfP h1 {
+        padding: 20px;
+    }
+
+
+    #areaImgSld{
+        margin-top: 2%;
+    }
+
+    #fpContainer{
+        height: 800px;
+    }
+}
+
+@media (max-width: 1575px) {
+    .botonPrinc p{
+        font-size: 1.3em;
+        color: white;
+    }
+
+    #fpContainer{
+        height: 700px;
+    }
+
+    #areaImgSld{
+        margin-top: 2%;
+    }
+}
+
+@media (max-width: 1375px) {
+    .botonPrinc p{
+        font-size: 1em;
+        color: white;
+        padding-top: 10px;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    #areaImgSld{
+        margin-top: 4%;
+    }
+}
+
+@media (max-width: 1166px){
+    #contentfP h1{
+        font-size: 3em;
+    }
+
+    #fpContainer{
+        height: 640px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #fpDivLeft{
+        flex-basis: 100%;
+    }
+
+    #contentfP{
+        margin-top: 16%;
+    }
+
+    .botonPrinc p{
+        font-size: 1.2em;
+        color: white;
+        padding-top: 8px;
+    }
+
+    #areaImgSld{
+        margin-top: 0;
+    }
+
+    #fpDivRight{
+        align-items: flex-start;
+    }
+
+}
+
+@media (max-width: 643px) {
+    #contentfP{
+        margin-top: 18%;
+    }
+
+    #contentfP a {
+        margin-top: 1%;
+    }
+}
+
+@media (max-width: 585px) {
+    #contentfP{
+        margin-top: 20%;
+    }
+
+    #contentfP a {
+        margin-top: 1%;
+    }
+
+    .botonPrinc p{
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 427px) {
+    #contentfP{
+        margin-top: 23%;
+    }
+
+    .botonPrinc p{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 372px) {
+    #contentfP{
+        margin-top: 25%;
+    }
+
+    .botonPrinc p{
+        font-size: 0.7em;
+    }
+
+}
+
+
+
+
