@@ -108,6 +108,14 @@
     transition: all 500ms;
 }
 
+.hiddeCar{
+    display: none;
+}
+
+.showCar {
+    display: block;
+}
+
 #areaImgSld p {
     font-size: 45px;
     font-family: 'Permanent Marker', cursive;
