@@ -1,5 +1,238 @@
-/* ARCHIVO GENERAL DE ESTILOS */
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 
-body{
-    background-color: grey;
+#mainNav {
+    background-color: transparent !important;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    padding-right: 7%;
+}
+
+.nav-item{
+    font-size: 24px;
+}
+
+.nav-link{
+    color: black !important;
+    transition: all 300ms;
+}
+
+.nav-link:hover{
+    color: #535353 !important;
+}
+
+#fpContainer{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#fpDivLeft{
+    flex-basis: 40%;
+    flex-grow: 2;
+    background-color: rgb(248,246,214);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#fpDivLeft h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5em;
+}
+
+.botonPrinc{
+    width: 25%;
+    margin: 4% auto;
+    height: 50px;
+    padding: 1%;
+    background-color: rgb(226,30,37);
+    border-radius: 19px;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 5px 5px #cccccc;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+}
+
+.botonPrinc p{
+    font-size: 1.6em;
+    color: white;
+}
+
+.botonPrinc:hover{
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+.active{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+#fpDivRight{
+    flex-basis: 60%;
+    flex-grow: 3;
+    background-color: rgb(245,205,84);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#areaImgSld{
+    margin-top: 1%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#areaImgSld img{
+    width: 55%;
+    transition: all 500ms;
+}
+
+.hiddeCar{
+    display: none;
+}
+
+.showCar {
+    display: block;
+}
+
+#areaImgSld p {
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#areaImgSld p:first-child{
+    margin-right: 30px;
+}
+
+#areaImgSld p:last-child{
+    margin-left: 50px;
+}
+
+
+#areaImgSld p:hover{
+    cursor: pointer;
+}
+
+#contentSlide{
+    width: 100%;
+    height: 72%;
+}
+
+#firstPage{
+    display: block;
+    background-color: #F06A1F;
+}
+
+#aboutus{
+    background-color: wheat;
+    width: 100%;
+}
+
+#prodContainer {
+    width: 100%;
+    background-color: #F06A1F;
+}
+
+#prodContainer h1 {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 5em;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 3%;
+}
+
+#classicProd {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#dulcClasicImgs{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 70%;
+    padding-bottom: 4%;
+}
+
+#dulcClasicImgs div{
+    box-sizing: border-box;
+    flex-basis: 45%;
+}
+
+#cl1{
+    transform: rotate(17deg);
+    padding: 2%;
+}
+
+#cl2{
+    transform: rotate(-4deg);
+}
+
+
+.dulcClasicTxt{
+    padding-right: 2%;
+    flex-basis: 30%;
+}
+
+.dulcClasicTxt h2{
+    width: 100%;
+    color: #2a2525;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.dulcClasicTxt ul{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dulcClasicTxt ul li {
+    display: block;
+    flex-basis: 100%;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 1.8em;
+    padding: 3px;
+}
+
+#dulcPremium{
+    padding: 4% 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#premImgs{
+    padding-left: 5%;
+}
+
+#premImgs img {
+    width: 100%;
 }
