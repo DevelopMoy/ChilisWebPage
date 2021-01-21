@@ -34,8 +34,6 @@ const updateImage = (imageNumber)=>{
         imageNumber=0;
     }
     const prevImage = images[imageNumber];
-    console.log("IMAGEN ACTUAL "+image.src);
-    console.log("IMAGEN ANTERIOR "+prevImage.src);
     image.classList.remove("hiddeCar");
     image.classList.add("showCar");
     prevImage.classList.remove("showCar");
@@ -45,5 +43,5 @@ const updateImage = (imageNumber)=>{
 const addButtonsEvents = ()=>{
     carouselArea.querySelector("p:first-child").addEventListener("click",()=>{changeImg(0)});
     carouselArea.querySelector("p:last-child").addEventListener("click",()=>{changeImg(1)});
-    setInterval(()=>{changeImg(1)},2000);
+    setInterval(()=>{changeImg(1)},3000);
 }

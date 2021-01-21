@@ -37,7 +37,6 @@
 #fpContainer{
     display: flex;
     flex-flow: row wrap;
-    height: 1000px;
 }
 
 #fpDivLeft{
@@ -139,3 +138,86 @@
     height: 72%;
 }
 
+#firstPage{
+    display: block;
+    background-color: #F06A1F;
+}
+
+#aboutus{
+    background-color: wheat;
+    width: 100%;
+}
+
+#prodContainer {
+    width: 100%;
+    background-color: #F06A1F;
+}
+
+#prodContainer h1 {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 5em;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 3%;
+}
+
+#classicProd {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#dulcClasicImgs{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 70%;
+    padding-bottom: 4%;
+}
+
+#dulcClasicImgs div{
+    box-sizing: border-box;
+    flex-basis: 45%;
+}
+
+#cl1{
+    transform: rotate(17deg);
+    padding: 2%;
+}
+
+#cl2{
+    transform: rotate(-4deg);
+}
+
+
+#dulcClasicTxt{
+    flex-basis: 30%;
+}
+
+#dulcClasicTxt h2{
+    width: 100%;
+    color: #2a2525;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#dulcClasicTxt ul{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#dulcClasicTxt ul li {
+    display: block;
+    flex-basis: 100%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 1.8em;
+    padding: 3px;
+}
