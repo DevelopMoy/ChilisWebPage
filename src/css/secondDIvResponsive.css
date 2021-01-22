@@ -1,5 +1,118 @@
+@media (max-width: 1920px) {
+    #premImgs img{
+        width: 130%;
+    }
+
+    .dulcClasicTxt h2{
+        font-size: 4.8em;
+    }
+
+    .dulcClasicTxt ul li{
+        font-size: 2.5em;
+    }
+}
 @media (max-width: 1790px){
     #dulcClasicImgs img{
         width: 95%;
+    }
+}
+
+@media (max-width: 1657px){
+    #premImgs img{
+        width: 120%;
+    }
+}
+
+@media (max-width: 1446px){
+    #premImgs img{
+        width: 110%;
+    }
+
+    .dulcClasicTxt h2{
+        font-size: 4em;
+    }
+
+    .dulcClasicTxt ul li{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 1110px){
+    #premImgs img{
+        width: 98%;
+    }
+
+    .dulcClasicTxt h2{
+        font-size: 3.5em;
+    }
+
+    .dulcClasicTxt ul li{
+        font-size: 1.6em;
+    }
+}
+
+/* BREAK POINT */
+
+@media (max-width: 1001px) {
+    #prodContainer{
+        padding-top: 25%;
+    }
+
+    #areaRosca, #areaManz{
+        flex-basis: 100%;
+        padding-top: 5%;
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 924px) {
+    #dulcPremium{
+        flex-flow: column-reverse wrap;
+    }
+
+
+
+    #dulcClasicImgs div{
+        flex-basis: 100%;
+        padding: 10% 0;
+    }
+
+    #dulcClasicImgs div img {
+        width: 100%;
+    }
+
+    .dulcClasicTxt{
+        flex-basis: 100%;
+    }
+
+    .dulcClasicTxt ul li{
+        font-size: 2.7em;
+    }
+
+
+    #prodContainer h1{
+        font-size: 4.2em;
+    }
+
+    #areaManz h2, #areaRosca h2{
+        font-size: 3.2em;
+    }
+}
+
+@media (max-width: 639px) {
+    #premImgs img{
+        width: 90%;
+    }
+    #areaManz h2, #areaRosca h2{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 415px){
+    #prodContainer h1{
+        font-size: 3.2em;
+    }
+    #areaManz h2, #areaRosca h2{
+        font-size: 2em;
     }
 }

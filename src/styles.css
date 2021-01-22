@@ -234,5 +234,44 @@
 }
 
 #premImgs img {
+    text-align: center;
     width: 100%;
+}
+
+#areaProdOtros{
+    background-color: #F8F6D6;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.otherContainer{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
+
+.otherContainer img{
+    width: 55%;
+    box-shadow: 5px 5px #cccccc;
+    border-radius: 20px;
+}
+
+.otherContainer h2{
+    font-size: 4em;
+    padding-bottom: 2%;
+}
+
+#areaRosca{
+    flex-basis: 50%;
+}
+
+#areaManz{
+    flex-basis: 50%;
+}
+
+#areaManz img{
+    width: 75%;
 }

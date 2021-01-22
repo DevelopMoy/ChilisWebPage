@@ -9,7 +9,7 @@ export const addCarouselEvents = ()=>{
 
 const changeImg = (direction)=>{
     const imgIndex=goDirection(direction);
-    updateImage(imgIndex);
+    updateImage(imgIndex,direction);
 }
 
 const goDirection =(direction)=>{
@@ -24,24 +24,31 @@ const goDirection =(direction)=>{
     return imgIndex;
 }
 
-const updateImage = (imageNumber)=>{
-    const image = images[imageNumber-1];
-    imageNumber=imageNumber-2;
-    if (imageNumber<0){
-        imageNumber=totalImages-1;
+const updateImage = (imageNumber,direction)=>{
+    imageNumber--;
+    const image = images[imageNumber];
+
+    if(direction){
+        imageNumber--;
+        if (imageNumber<0){
+            imageNumber=totalImages-1;
+        }
+    }else{
+        imageNumber++;
+        if(imageNumber>totalImages-1){
+            imageNumber=0;
+        }
     }
-    if (imageNumber>=totalImages){
-        imageNumber=0;
-    }
-    const prevImage = images[imageNumber];
+
+    const auxImage = images[imageNumber];
+    auxImage.classList.remove("showCar");
+    auxImage.classList.add("hiddeCar");
     image.classList.remove("hiddeCar");
     image.classList.add("showCar");
-    prevImage.classList.remove("showCar");
-    prevImage.classList.add("hiddeCar");
 }
 
 const addButtonsEvents = ()=>{
     carouselArea.querySelector("p:first-child").addEventListener("click",()=>{changeImg(0)});
     carouselArea.querySelector("p:last-child").addEventListener("click",()=>{changeImg(1)});
-    setInterval(()=>{changeImg(1)},3000);
+    setInterval(()=>{changeImg(1)},100000);
 }

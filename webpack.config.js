@@ -5,10 +5,12 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path');
 
 
+
 module.exports ={
     mode:'development', // DEVELOPMENT - PRODUCTION
     output: { // SALIDA DEL ARCHIVO PRINCIAL JS
-        path: path.resolve(process.cwd(), 'dist')
+        path: path.resolve(process.cwd(), 'dist'),
+        publicPath: "/"
     },
     module:{
         rules:[ // REGLAS PARA LOS MODULOS (CONFIGURAR LOADERS, ETC)
@@ -60,7 +62,7 @@ module.exports ={
             inject: "body"
         }*/),
         new extractMiniCss({
-            filename: '[name].css', // NOMBRE DEL ARCHIVO EN PRODUCCION
+            filename: 'assets/[name].css', // NOMBRE DEL ARCHIVO EN PRODUCCION
             ignoreOrder:false
         }),
         new plugCopy ({
