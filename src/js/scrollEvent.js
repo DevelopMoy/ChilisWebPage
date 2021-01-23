@@ -26,7 +26,7 @@ const prepareElements = ()=>{
 }
 
 function doSomething(scroll_pos) {
-    if (scroll_pos>=0&&scroll_pos<=positionsY[1]){
+    if (scroll_pos>=0&&scroll_pos<=positionsY[1]-10){
         unlistedList[0].parentElement.classList.add("active");
         unlistedList[1].parentElement.classList.remove("active");
     }else{
