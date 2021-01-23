@@ -50,5 +50,5 @@ const updateImage = (imageNumber,direction)=>{
 const addButtonsEvents = ()=>{
     carouselArea.querySelector("p:first-child").addEventListener("click",()=>{changeImg(0)});
     carouselArea.querySelector("p:last-child").addEventListener("click",()=>{changeImg(1)});
-    setInterval(()=>{changeImg(1)},100000);
+    setInterval(()=>{changeImg(1)},3000);
 }

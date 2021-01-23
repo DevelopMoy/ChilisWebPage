@@ -20,17 +20,14 @@
         </button>
         <div class="navLinks collapse showBackgr navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav unlistedList">
-                <li class="nav-item active"> <!-- class active means is the selected one -->
-                    <a class="nav-link " href="#firstPage">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item"> <!-- class active means is the selected one -->
+                    <a class="nav-link elemNav" href="#firstPage">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#prodContainer">Productos</a>
+                    <a class="nav-link elemNav" href="#prodContainer">Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Conocenos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link elemNav" href="#areaPedidos">Pedidos</a>
                 </li>
             </ul>
         </div>
@@ -40,19 +37,19 @@
         <div id="fpDivLeft">
             <div id="contentfP">
                 <h1>La vida es mejor con CHILI</h1>
-                <a href="#" class="botonPrinc"><p>Ordena Aquí</p></a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=524491370211" class="botonPrinc"><p>Ordena Aquí</p></a>
             </div>
         </div>
         <div id="fpDivRight">
             <div id="contentSlide">
                 <div id="areaImgSld">
-                    <p class="noselect">&lt;</p>
+                    <p class="noselect efectoHoverGrow2">&lt;</p>
                     <img class="carImg showCar" src="./assets/productsImg/p1.png">
                     <img class="carImg hiddeCar" src="./assets/productsImg/p2.png">
                     <img class="carImg hiddeCar" src="./assets/productsImg/p3.png">
                     <img class="carImg hiddeCar" src="./assets/productsImg/p4.png">
                     <img class="carImg hiddeCar" src="./assets/productsImg/p5.png">
-                    <p class="noselect">&gt;</p>
+                    <p class="noselect efectoHoverGrow2">&gt;</p>
                 </div>
             </div>
         </div>
@@ -97,19 +94,36 @@
             </ul>
         </div>
         <div id="premImgs">
-            <img src="./assets/prodCent.png">
+            <img class="efectoHoverGRotate" src="./assets/prodCent.png">
         </div>
     </div>
 
     <div id="areaProdOtros">
         <div id="areaRosca" class="otherContainer">
             <h2>Rosca de papás</h2>
-            <img src="./assets/secondaryImages/rosca.jpeg">
+            <img class="efectoHoverGRotate" src="./assets/secondaryImages/rosca.jpeg">
         </div>
 
         <div id="areaManz" class="otherContainer">
             <h2>Manzanas Cubiertas</h2>
-            <img src="./assets/secondaryImages/manz.jpg">
+            <img class="efectoHoverGRotate" src="./assets/secondaryImages/manz.jpg">
+        </div>
+        <div id="areaEspec" class="otherContainer">
+            <h2>Chili's Delivery</h2>
+            <img class="efectoHoverGrow" src="./assets/secondaryImages/espec1.jpg">
+            <img class="efectoHoverGrow" src="./assets/secondaryImages/espec2.jpg">
+            <img class="efectoHoverGrow" src="./assets/secondaryImages/espec3.jpg">
+        </div>
+    </div>
+
+    <div id="areaPedidos">
+        <img src="./assets/list.png">
+        <div id="contactanos">
+            <h2>- Entregas todos los días</h2>
+            <h2>- Envíos a domicilio</h2>
+            <a target="_blank" href="https://www.facebook.com/chiliags-111615800537718"><img class="icon efectoHoverGrow" src="./assets/icons/iconmonstr-facebook-4-96.png"></a>
+            <a target="_blank" href="https://www.instagram.com/chili.ags/"><img class="icon efectoHoverGrow" src="./assets/icons/Instagram-300x300%20(1).png"></a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=524491370211"><img class="icon efectoHoverGrow" src="./assets/icons/iconmonstr-whatsapp-1-96.png"></a>
         </div>
     </div>
 </div>

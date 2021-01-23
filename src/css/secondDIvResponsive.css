@@ -10,11 +10,20 @@
     .dulcClasicTxt ul li{
         font-size: 2.5em;
     }
+
+    #areaEspec img{
+        margin-left: 2%;
+        margin-top: 1%;
+    }
 }
 @media (max-width: 1790px){
     #dulcClasicImgs img{
         width: 95%;
     }
+    #areaEspec img{
+        margin-top: 2%;
+    }
+
 }
 
 @media (max-width: 1657px){
@@ -37,7 +46,18 @@
     }
 }
 
+@media (max-width: 1200px){
+    #areaPedidos>img {
+        width: 70%;
+        padding-bottom: 2%;
+    }
+}
+
 @media (max-width: 1110px){
+    #areaEspec img{
+        height: auto;
+    }
+
     #premImgs img{
         width: 98%;
     }
@@ -54,6 +74,12 @@
 /* BREAK POINT */
 
 @media (max-width: 1001px) {
+    #areaEspec img{
+        width: 300px;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+
     #prodContainer{
         padding-top: 25%;
     }
@@ -63,6 +89,21 @@
         padding-top: 5%;
         font-size: 1.6em;
     }
+
+    .dulcClasicTxt ul{
+        padding-left: 0;
+    }
+
+
+    .dulcClasicTxt{
+        padding: 0;
+        flex-basis: 30%;
+    }
+
+    .dulcClasicTxt ul li {
+        padding: 0;
+    }
+
 }
 
 @media (max-width: 924px) {
@@ -97,6 +138,12 @@
     #areaManz h2, #areaRosca h2{
         font-size: 3.2em;
     }
+    #areaPedidos>img {
+        width: 80%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
 }
 
 @media (max-width: 639px) {
@@ -105,6 +152,21 @@
     }
     #areaManz h2, #areaRosca h2{
         font-size: 2.5em;
+    }
+
+}
+
+@media (max-width: 599px){
+    #areaEspec img{
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+}
+
+@media (max-width: 494px){
+    #contactanos{
+        width: 80%;
     }
 }
 
@@ -115,4 +177,10 @@
     #areaManz h2, #areaRosca h2{
         font-size: 2em;
     }
+
+    #areaEspec img{
+        width: 240px;
+        height: auto;
+    }
+
 }

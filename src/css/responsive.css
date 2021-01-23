@@ -32,6 +32,10 @@
     #fpContainer{
         height: 800px;
     }
+
+    #prodContainer h1{
+        padding-top: 7%;
+    }
 }
 
 @media (max-width: 1575px) {
@@ -54,6 +58,10 @@
         font-size: 1em;
         color: white;
         padding-top: 10px;
+    }
+
+    #prodContainer h1{
+        padding-top: 9%;
     }
 
 }
