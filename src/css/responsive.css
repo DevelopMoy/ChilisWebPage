@@ -64,6 +64,10 @@
         padding-top: 9%;
     }
 
+    #areaProdOtros   {
+        padding-bottom: 4%;
+    }
+
 }
 
 @media (max-width: 1280px) {
@@ -107,7 +111,17 @@
 
 }
 
+@media (max-width: 710px){
+    .icon{
+        width: 70px;
+    }
+}
+
 @media (max-width: 643px) {
+    #areaProdOtros   {
+        padding-bottom: 6%;
+    }
+
     #contentfP{
         margin-top: 18%;
     }
@@ -128,6 +142,16 @@
 
     .botonPrinc p{
         font-size: 0.9em;
+    }
+
+    .icon {
+        width: 70px;
+    }
+}
+
+@media (max-width: 549px){
+    .icon {
+        width: 90px;
     }
 }
 
